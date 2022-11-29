@@ -32,7 +32,7 @@
   ```
   
 ```
-sudo apt install pkg-config build-essential libssl-dev curl jq
+sudo apt install pkg-config build-essential git libssl-dev curl jq
 ```
 
 Rust yüklüyoruz
@@ -60,7 +60,15 @@ cd manta-rs
 ```
 cargo run --release --all-features --bin groth16_phase2_client contribute
 ```
-# Burda bir önceki adımda yaptığımız işlemler sonucunda bize verilen screet keyi kullanıyoruz. bize ne kadar süre bekliyeceğimizi ve önümüzde kaç kişi olduğunu söyliyecek, sıra bize geldiğinde işlemler tamamlanacak ve bize verdiği tweet linkinide paylaşmayı unutmayalım zorunlu değil ama yapılabilir.
+ # Burda bir önceki adımda yaptığımız işlemler sonucunda bize verilen screet keyi kullanıyoruz. bize ne kadar süre bekliyeceğimizi ve önümüzde kaç kişi olduğunu söyliyecek, sıra bize geldiğinde işlemler tamamlanacak ve bize verdiği tweet linkinide paylaşmayı unutmayalım zorunlu değil ama yapılabilir.
+ 
+ screenden çıkmak için ctrl +A+D kullanıyoruz.
+ 
+ tekrar screene girmek için
+ ```
+ screen -r
+ ```
+
 
 
   
